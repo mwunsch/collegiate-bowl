@@ -1,0 +1,8 @@
+<% players.each do |player| %>
+  <li class="player">
+    <a href="<%= url(player[:id]) %>">
+      <img class="avatar" src="<%= player[:image] %>" width="128" height="128" />
+      <span><%= player[:name] %></span>
+    </a>
+  </li>
+<% end %>

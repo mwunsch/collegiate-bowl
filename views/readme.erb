@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta content="A flamboyant mock user generator" name="description">
+  <title>Annual East/West Collegiate Bowl User Generator</title>
+  <style type="text/css">
+    body {
+      font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', arial, sans-serif;
+    }
+    .wrapper {
+      width: 560px;
+      margin: 0 auto;
+    }
+    .players {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      width: 50%;
+    }
+    .east {
+      float: left;
+    }
+    .west {
+      float: right;
+    }
+    .player {
+      width: 100%;
+    }
+    .avatar {
+      border-radius: 50%;
+      display: block;
+      margin: 1em auto;
+    }
+    #readme {
+      clear: both;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    pre {
+      background-color: #ededed;
+      padding: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Annual East/West Collegiate Bowl</h1>
+    <ul class="east players">
+      <%= erb :players, locals: { players: east } %>
+    </ul>
+    <ul class="west players">
+      <%= erb :players, locals: { players: west } %>
+    </ul>
+    <section id="readme">
+      <%= readme %>
+    </section>
+  </div>
+</body>
+</html>
