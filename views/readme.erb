@@ -14,7 +14,6 @@
     }
     .players {
       padding: 0;
-      list-style: none;
       text-align: center;
       width: 50%;
     }
@@ -47,12 +46,12 @@
 <body>
   <div class="wrapper">
     <h1>Annual East/West Collegiate Bowl</h1>
-    <ul class="east players">
+    <div class="east players">
       <%= erb :players, locals: { players: east } %>
-    </ul>
-    <ul class="west players">
+    </div>
+    <div class="west players">
       <%= erb :players, locals: { players: west } %>
-    </ul>
+    </div>
     <section id="readme">
       <%= readme %>
     </section>

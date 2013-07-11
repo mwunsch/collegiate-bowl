@@ -91,6 +91,7 @@ get '/west/avatar.png' do
 end
 
 get '/:id' do
+  content_type :json
   players(All).find(-> { pass }) {|hash| hash[:id] == params[:id] }.to_json
 end
 
@@ -107,6 +108,7 @@ def players(set)
 end
 
 def players_as_json(set)
+  content_type :json
   players(set).to_json
 end
 
