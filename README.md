@@ -17,9 +17,10 @@ All of the user data, including the imagery, comes from the [Key & Peele *East/W
 Users are represented as "players", and are of the [JSON](http://json.org/) form:
 
     {
-      "name"  : "X-Wing @Aliciousness",
-      "id"    : "faa5956c57cb81618f68b59a1862e888",
-      "image" : full_path_to_user_avatar
+      "name"     : "X-Wing @Aliciousness",
+      "college"  : "Missouri Western State University",
+      "id"       : "faa5956c57cb81618f68b59a1862e888",
+      "image"    : full_path_to_user_avatar
     }
 
 All images are 512x512 PNG.
