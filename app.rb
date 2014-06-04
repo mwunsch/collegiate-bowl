@@ -66,7 +66,7 @@ West = [
   Player.new("Ladadadaladadadadada Dala-Dadaladaladalada", "University of Arizona"),
   Player.new("Harvard University", "DeVry University"),
   Player.new("Morse Code", "Army Navay Surplus Store"),
-  Player.new("Wing Dings", "Online Classes"),
+  Player.new("\u{2666}\u{fe0e}\u{2653}\u{fe0e}\u{25fc}\u{fe0e}\u{2651}\u{fe0e} \u{264e}\u{fe0e}\u{2653}\u{fe0e}\u{25fc}\u{fe0e}\u{2651}\u{fe0e}\u{25c6} (Wing Dings)", "Online Classes"),
   Player.new("Firstname Lastname", "College University"),
   Player.new("God", "Home schooled"),
   Player.new("Squeeeeeeeeeeps", "Santa Monica College"),
