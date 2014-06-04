@@ -20,7 +20,23 @@ East = [
   Player.new("Hingle McCringleberry"),
   Player.new("L'Carpetron Dookmarriot"),
   Player.new("J'Dinkalage Morgoone"),
-  Player.new("Xmus Jaxon Flaxon-Waxon")
+  Player.new("Xmus Jaxon Flaxon-Waxon"),
+  Player.new("Coznesster Smiff"),
+  Player.new("Elipses Corter"),
+  Player.new("Nyquillus Dillwad"),
+  Player.new("Bismo Funyuns"),
+  Player.new("Decatholac Mango"),
+  Player.new("Mergatroid Skittle"),
+  Player.new("Quiznatodd Bidness"),
+  Player.new("D'Pez Poopsie"),
+  Player.new("Quackadilly Blip"),
+  Player.new("Goolius Boozler"),
+  Player.new("Bisquiteen Trisket"),
+  Player.new("Fartrell Cluggins"),
+  Player.new("Blyrone Blashinton"),
+  Player.new("Cartoons Plural"),
+  Player.new("Jammie Jammie-Jammie"),
+  Player.new("Fudge")
 ]
 
 West = [
@@ -39,7 +55,23 @@ West = [
   Player.new("Donkey Teeth"),
   Player.new("Torque (construction noise) Lewith"),
   Player.new("\u2A17 (the player formerly known as Mousecop)"),
-  Player.new("Dan Smith", "BYU")
+  Player.new("Dan Smith", "BYU"),
+  Player.new("Equine Ducklings"),
+  Player.new("Dahistorius Lamystorius"),
+  Player.new("Ewokoniad Sigourneth Juniorstein"),
+  Player.new("Eqqsnuizitine Buble-Schwinslow"),
+  Player.new("Huka'lakanaka Hakanakaheekalucka'hukahakafaka"),
+  Player.new("King Prince Chambermaid"),
+  Player.new("Ladennifer Jadaniston"),
+  Player.new("Ladadadaladadadadada Dala-Dadaladaladalada"),
+  Player.new("Harvard University"),
+  Player.new("Morse Code"),
+  Player.new("Wing Dings"),
+  Player.new("Firstname Lastname"),
+  Player.new("God"),
+  Player.new("Squeeeeeeeeeeps"),
+  Player.new("Benedict Cumberbatch"),
+  Player.new("A.A. Ron Balakay")
 ]
 
 All = East | West

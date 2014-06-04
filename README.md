@@ -7,9 +7,10 @@ Sometimes, when designing and/or building an application interface, it helps to 
 + User Avatars
 + User Meta-Data
 
-All of the user data, including the imagery, comes from the [Key & Peele *East/West College Bowl*](http://www.youtube.com/watch?v=gODZzSOelss) sketch from Comedy Central.
+All of the user data, including the imagery, comes from the [Key & Peele *East/West College Bowl*](http://www.youtube.com/watch?v=gODZzSOelss) and [Key & Peele *East/West College Bowl 2*](www.youtube.com/watch?v=rT1nGjGM2p8) sketches from Comedy Central.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/gODZzSOelss" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/rT1nGjGM2p8" frameborder="0" allowfullscreen></iframe>
 
 ## The endpoints
 
