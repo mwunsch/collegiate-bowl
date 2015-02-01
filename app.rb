@@ -114,6 +114,7 @@ All = East | West
 README = File.read(File.join(settings.root, 'README.md'))
 
 set :static_cache_control, [:public]
+set :protection, except: [:json_csrf]
 
 get '/' do
   erb :readme, locals: {
