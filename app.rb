@@ -21,6 +21,7 @@ East = [
   Player.new("L'Carpetron Dookmarriot", "Florida Atlantic University"),
   Player.new("J'Dinkalage Morgoone", "University of South Florida"),
   Player.new("Xmus Jaxon Flaxon-Waxon", "California University of Pennsylvania"),
+  # College Bowl 2
   Player.new("Coznesster Smiff", "Rutgers University"),
   Player.new("Elipses Corter", "University of Alabama"),
   Player.new("Nyquillus Dillwad", "LSU"),
@@ -36,7 +37,23 @@ East = [
   Player.new("Blyrone Blashinton", "Syracuse University"),
   Player.new("Cartoons Plural", "Virginia Tech University"),
   Player.new("Jammie Jammie-Jammie", "The Ohio State University"),
-  Player.new("Fudge")
+  Player.new("Fudge"),
+  # Pro Edition
+  Player.new("Creme de la Creme", "Vanderbilt University"),
+  Player.new("Cosgrove Shumway", "Clemson University"),
+  Player.new("Ha Ha Clinton-Dix", "University of Alabama"),
+  Player.new("Doink Ahanahue", "Marshall University"),
+  Player.new("Legume Duprix", "West Virginia University"),
+  Player.new("Leger Douzable", "University of Central Florida"),
+  Player.new("Quisperny G'Dunzoid Sr.", "Central Connecticut State University"),
+  Player.new("Grunky Peep", "Georgia Southern University"),
+  Player.new("D'Brickashaw Ferguson", "University of Virginia"),
+  Player.new("Strunk Flugget", "University of South Carolina"),
+  Player.new("Stumptavian Roboclick", "Grambling State University"),
+  Player.new("Cornelius 'Tank' Carradine", "Florida State University"),
+  Player.new("Vagonius Thicket-Suede", "Duke University"),
+  Player.new("Marmadune Shazbot", "Tulane University"),
+  Player.new("Swordless Mimetown", "Jacksonville State University")
 ]
 
 West = [
@@ -56,6 +73,7 @@ West = [
   Player.new("Torque (construction noise) Lewith", "Nevada State Penitentiary"),
   Player.new("\u2A17 (the player formerly known as Mousecop)", "University of Missouri-Columbia"),
   Player.new("Dan Smith", "BYU"),
+  # College Bowl 2
   Player.new("Equine Ducklings", "Indiana University Purdue University Indianapolis"),
   Player.new("Dahistorius Lamystorius", "Utah State University"),
   Player.new("Ewokoniad Sigourneth Juniorstein", "Oklahoma State University"),
@@ -71,7 +89,24 @@ West = [
   Player.new("God", "Home schooled"),
   Player.new("Squeeeeeeeeeeps", "Santa Monica College"),
   Player.new("Benedict Cumberbatch", "Oxford University"),
-  Player.new("A.A. Ron Balakay", "Morehouse College")
+  Player.new("A.A. Ron Balakay", "Morehouse College"),
+  # Pro Edition
+  Player.new("Prince Amukamara", "University of Nebraska"),
+  Player.new("J.R. Junior Juniors Jr.", "Texas Christian University"),
+  Player.new("Faux Doadles", "University of Oregon"),
+  Player.new("Fozzy Whittaker", "University of Texas"),
+  Player.new("Myriad Profiteroles", "Utah University"),
+  Player.new("Busters Brownce", "Illinois State University"),
+  Player.new("Turdine Cupcake"), # Not sure what his College affiliation is
+  Player.new("Rerutweeds Myth", "University of Washington"),
+  Player.new("Ishmaa'ily Kitchen", "Kent State University"),
+  Player.new("Takittothu' Limit", "College De Cannes"), # Also unsure
+  Player.new("Snarf Mintz-Plasse", "East Lost Angeles College"),
+  Player.new("Frostee Rucker", "University of Southern California"),
+  Player.new("Splendiferous Finch", "Northwestern University"),
+  Player.new("Triple Parakeet-Shoes", "Ball State University"),
+  Player.new("Logjammer D'Baggagecling", "North Texas University"),
+  Player.new("A.A. Ron Rodgers", "University of California")
 ]
 
 All = East | West
