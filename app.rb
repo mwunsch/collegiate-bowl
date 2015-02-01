@@ -111,13 +111,15 @@ West = [
 
 All = East | West
 
+README = File.read(File.join(settings.root, 'README.md'))
+
 set :static_cache_control, [:public]
 
 get '/' do
   erb :readme, locals: {
     east: players(East.sample(1)),
     west: players(West.sample(1)),
-    readme: markdown(readme)
+    readme: markdown(README)
   }
 end
 
@@ -184,6 +186,3 @@ def send_random_player_image(set)
   send_file File.join(settings.public_folder, "images", "#{set.sample.id}.png"), last_modified: Time.now
 end
 
-def readme
-  File.read(File.join(settings.root, 'README.md'))
-end
