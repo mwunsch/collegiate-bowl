@@ -161,7 +161,7 @@ end
 
 get '/:id' do
   content_type :json
-  players(All).find(-> { pass }) {|hash| hash[:id] == params[:id] }.to_json
+  players(All).find(-> { content_type :html; pass }) {|hash| hash[:id] == params[:id] }.to_json
 end
 
 def n_or_one
